@@ -1,6 +1,9 @@
 html {
   height: 100%;
-  width: 100%;
+  width: 100%;}
+*{
+  margin:0px;
+  padding:0px;
 }
 div.container{
   margin:auto;
@@ -10,24 +13,44 @@ div.container{
   justify-content:center;
   flex-direction:column;
   align-items:center;
-  font-size: 2rem;
-  row-gap: 3rem;
+  font-size: 1.3rem;
+  row-gap: 2rem;
 }
 body{
-  background-color:#EDE8F5;
+  background-color:#def2f1;;
 }
 h1{
   text-align:center;
-  font-size:4rem;
+  font-size:2rem;
+  
 }
 #cm{  
   width:70vw;
-  height:10vh;
-  background-color:#def2f1;
+  height:7vh;
+  background-color:#feffff;
   border-radius:2rem;
   display:grid;
   place-items:center;
 }
 a{
   text-decoration:none;
+}
+input{
+  width:70vw;
+  height:7vh;
+  border-radius:1rem;
+  font-size:1.3rem;
+  text-align:center;
+  color:black;
+  border:2px solid black;
+}
+
+button{
+  width:30vw;
+  height:8vh;
+  border-radius:1rem;
+  font-size:1.5rem;
+  text-align:center;
+  background-color:#116466;
+  border:2px solid gray;
 }
