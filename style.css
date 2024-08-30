@@ -2,3 +2,32 @@ html {
   height: 100%;
   width: 100%;
 }
+div.container{
+  margin:auto;
+  position:fixed;
+  inset:0;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  font-size: 2rem;
+  row-gap: 3rem;
+}
+body{
+  background-color:#EDE8F5;
+}
+h1{
+  text-align:center;
+  font-size:4rem;
+}
+#cm{  
+  width:70vw;
+  height:10vh;
+  background-color:#def2f1;
+  border-radius:2rem;
+  display:grid;
+  place-items:center;
+}
+a{
+  text-decoration:none;
+}
